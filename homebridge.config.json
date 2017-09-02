@@ -1,0 +1,26 @@
+{
+  "bridge": {
+    "name": "Homebridge",
+    "username": "CC:22:3D:E3:CE:30",
+    "port": 51826,
+    "pin": "844-27-286",
+    "manufacturer": "@nfarina",
+    "model": "Homebridge",
+    "serialNumber": "0.4.20"
+  },
+
+  "description": "Config for homebridge.",
+
+  "accessories": [
+    {
+      "accessory": "AppleScript",
+      "name": "Spotify",
+      "type": "file",
+      "on": "/Users/Jeff/Documents/AppleScripts/spotify-on.scpt",
+      "off": "/Users/Jeff/Documents/AppleScripts/spotify-off.scpt",
+      "status": "/Users/Jeff/Documents/AppleScripts/spotify-status.scpt",
+      "statusCheckInterval": "5"
+    }
+  ],
+  "platforms": []
+}
